@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System
+#  Movie Recommender System
 
 A **Movie Recommendation System** built with **Python**, **Streamlit**, and **TMDB API**, which suggests movies based on your selection and displays their posters.  
 
