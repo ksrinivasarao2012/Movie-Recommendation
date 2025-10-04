@@ -24,8 +24,8 @@ def recommend(movie):
 
 
 # Load data
-content_df = pickle.load(open('content.pkl', "rb"))
-cosine_df = pickle.load(open('cosine.pkl', "rb"))
+content_df = pickle.load(open(r'data\processed\content.pkl', "rb"))
+cosine_df = pickle.load(open(r'data\processed\cosine.pkl', "rb"))
 movies_list = content_df['title'].values
 
 # UI

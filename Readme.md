@@ -55,13 +55,25 @@ streamlit run app.py
 ## 🔹 Project Structure
 
 ```
-movie-recommender/
+Movie-Recommendation/
 │
-├── app.py              # Main Streamlit app
-├── content.pkl         # Pickle file containing movie data
-├── cosine.pkl          # Pickle file containing cosine similarity matrix
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+├── app.py              # The core Streamlit web application script 🚀
+├── requirements.txt    # List of all Python dependencies
+├── README.md           # Project documentation
+│
+├── data/               # Contains all datasets and model files
+│   ├── raw/            # Original, unmodified data source files
+│   │   ├── tmdb_5000_credits.csv
+│   │   └── tmdb_5000_movies.csv
+│   └── processed/      # Cleaned and processed data ready for the app
+│       ├── content.pkl     # LARGE FILE (LFS): Processed DataFrame of movie features
+│       └── cosine.pkl      # LARGE FILE (LFS): Cosine Similarity matrix (Core Model)
+│
+├── codes.ipynb          # Jupyter Notebook for data cleaning and model creation
+│   
+│
+└── assets/             # Static files like screenshots or UI images
+    └── Recommandation.png  # Project screenshot (LFS tracked)
 ```
 
 ---
@@ -75,7 +87,7 @@ movie-recommender/
 
 ## 🔹 Screenshot
 
-![Movie Recommender Screenshot](Recommandation.png)
+![Movie Recommender Screenshot](assets\Recommandation.png)
 
 
 ## 🔹 License
