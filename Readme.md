@@ -69,13 +69,8 @@ Movie-Recommendation/
 │       ├── content.pkl     # LARGE FILE (LFS): Processed DataFrame of movie features
 │       └── cosine.pkl      # LARGE FILE (LFS): Cosine Similarity matrix (Core Model)
 │
-<<<<<<< HEAD
 ├── codes.ipynb          # Jupyter Notebook for data cleaning and model creation
 │   
-=======
-├── notebooks/          # Development and exploration notebooks
-│   └── codes.ipynb     # Jupyter Notebook for data cleaning and model creation
->>>>>>> 3cc3f3671db9be
 │
 └── assets/             # Static files like screenshots or UI images
     └── Recommandation.png  # Project screenshot (LFS tracked)
