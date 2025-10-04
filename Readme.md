@@ -85,9 +85,7 @@ Movie-Recommendation/
 ---
 
 ## 🔹 Screenshot
-
-![Movie Recommender Screenshot](assets\Recommandation.png)
-
+![Movie Recommender Screenshot](assets/Recommandation.png)
 
 ## 🔹 License
 This project is licensed under the MIT License.
