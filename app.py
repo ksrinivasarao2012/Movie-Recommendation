@@ -14,10 +14,14 @@ def recommend(movie):
     k = content_df[content_df['title'] == movie].index[0]
     distances = cosine_df.iloc[k].sort_values(ascending=False)[1:6]
     names, posters = [], []
-    for i in distances.index:
-        names.append(content_df.iloc[i]['title'])
-        posters.append(fetch_poster(content_df.iloc[i]['movie_id']))
+    for title in distances.index:
+        # Find the integer index of this title in content_df
+        idx = content_df[content_df['title'] == title].index[0]
+        names.append(content_df.iloc[idx]['title'])
+        posters.append(fetch_poster(content_df.iloc[idx]['movie_id']))
     return names, posters
+
+
 
 # Load data
 content_df = pickle.load(open('content.pkl', "rb"))
