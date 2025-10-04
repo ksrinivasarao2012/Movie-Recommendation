@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System
+#  Movie Recommender System
 
 A **Movie Recommendation System** built with **Python**, **Streamlit**, and **TMDB API**, which suggests movies based on your selection and displays their posters.  
 
@@ -25,7 +25,7 @@ A **Movie Recommendation System** built with **Python**, **Streamlit**, and **TM
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ksrinivasarao2012/Movie-Recommendation
 cd movie-recommender
 ```
 
@@ -69,13 +69,17 @@ Movie-Recommendation/
 │       ├── content.pkl     # LARGE FILE (LFS): Processed DataFrame of movie features
 │       └── cosine.pkl      # LARGE FILE (LFS): Cosine Similarity matrix (Core Model)
 │
+<<<<<<< HEAD
 ├── codes.ipynb          # Jupyter Notebook for data cleaning and model creation
 │   
+=======
+├── notebooks/          # Development and exploration notebooks
+│   └── codes.ipynb     # Jupyter Notebook for data cleaning and model creation
+>>>>>>> 3cc3f3671db9be
 │
 └── assets/             # Static files like screenshots or UI images
     └── Recommandation.png  # Project screenshot (LFS tracked)
 ```
-
 ---
 
 ## 🔹 TMDB API
